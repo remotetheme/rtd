@@ -3,6 +3,10 @@
 
 ___
 
+# jekyll-rtd-theme
+
+___
+
 ## Markdown の表示
 
 [Markdown](markdown)
@@ -14,19 +18,19 @@ ___
 `_config.yml` は次の情報を入れます。
 
 ```
-theme: jekyll-theme-hacker
-lang: ja
-title: Hacker テーマ
-description: GitHub Pages Hacker テーマ
-show_downloads: false
-google_analytics: UA-OOOOOOOO-O
+remote_theme: rundocs/jekyll-rtd-theme
+
+lang: la
+
+title: jekyll-rtd-theme
+description: GitHub Pages jekyll-rtd-theme
 ```
 
 ```
-theme: jekyll-theme-hacker
+remote_theme: rundocs/jekyll-rtd-theme
 ```
 
-このテーマ **Hacker** を使用する場合に指定します。
+このテーマ **jekyll-rtd-theme** を使用する場合に指定します。
 
 ```
 lang: ja
@@ -35,27 +39,32 @@ lang: ja
 **日本語** の場合はこれを含めて下さい。 `<html lang="ja">` へ変換されます。
 
 ```
-title: Hacker テーマ
-description: GitHub Pages Hacker テーマ
+title: jekyll-rtd-theme
 ```
 
-ヘッダに表示されます。省略した場合はリポジトリ名・タグが反映されます。
+左上に固定表示されます。ブラウザ表示にも使われています。
 
 ```
-show_downloads: false
+description: GitHub Pages jekyll-rtd-theme
 ```
 
-ダウンロードを使用しない場合は **false** にします。\
-**true** の場合はリポジトリの **Releases** で公開している最新版の\
-`.zip` および `.tar.gz` ファイルがダウンロード表示になります。
+HTML のヘッダに含まれます。
+
+___
+
+## *.md *.html ファイル
+
+記載された内容がそのまま表示されます。\
+Front Matter は `sort` が機能します。メニューでの表示順になります。
 
 ```
-google_analytics: UA-OOOOOOOO-O
+---
+sort: 1
+---
 ```
 
-Google アナリティクス の トラッキング ID を入れると、\
-ソースにトラッキングコードが付与されます。\
-Google アナリティクス 4 のコードは非対応です。
+jekyll-rtd-theme では独自仕様がいくつか備わっています。\
+[Markdown](markdown) ページに紹介しています。
 
 ___
 
@@ -63,7 +72,7 @@ ___
 
 より詳細な設定などはこちらを参照して下さい。
 
-<https://github.com/pages-themes/hacker>
+<https://github.com/rundocs/jekyll-rtd-theme>
 
 ___
 

@@ -1,6 +1,10 @@
 
 [remotetheme.github.io](https://remotetheme.github.io/) / 
-[hacker](./)
+[jekyll-rtd-theme](./)
+
+___
+
+# Markdown
 
 ___
 
@@ -693,9 +697,67 @@ HTML の中で ***Markdown*** も使えます。
 </div>
 {::options parse_block_html="false" /}
 
+____
+
+## jekyll-rtd-theme 独自仕様
+
+<div class="language-plaintext highlighter-rouge"><pre class="highlight"><code>```note
+note の例。\
+複数行で記載もできます。
+```</code></pre></div>
+
+{::options parse_block_html="true" /}
+<div style="background: #222; padding: 0 5px;">
+```note
+note の例。\
+複数行で記載もできます。
+```
+</div>
+{::options parse_block_html="false" /}
+
+<div class="language-plaintext highlighter-rouge"><pre class="highlight"><code>```tip
+tip の例。
+```</code></pre></div>
+
+{::options parse_block_html="true" /}
+<div style="background: #222; padding: 0 5px;">
+```tip
+tip の例。
+```
+</div>
+{::options parse_block_html="false" /}
+
+<div class="language-plaintext highlighter-rouge"><pre class="highlight"><code>```warning
+warning の例。
+```</code></pre></div>
+
+{::options parse_block_html="true" /}
+<div style="background: #222; padding: 0 5px;">
+```warning
+warning の例。
+```
+</div>
+{::options parse_block_html="false" /}
+
+<div class="language-plaintext highlighter-rouge"><pre class="highlight"><code>```danger
+danger の例。
+```</code></pre></div>
+
+{::options parse_block_html="true" /}
+<div style="background: #222; padding: 0 5px;">
+```danger
+danger の例。
+```
+</div>
+{::options parse_block_html="false" /}
+
+それ以外にも独自仕様が備わっています。
+
+<https://jekyll-rtd-theme.rundocs.io/test/>
+
 ___
 
 [remotetheme.github.io](https://remotetheme.github.io/) / 
-[hacker](./)
+[jekyll-rtd-theme](./)
 
 ___
