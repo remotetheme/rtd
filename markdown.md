@@ -382,24 +382,24 @@ ___
 ## 画像
 
 ```
-![ふうせん🎈 Fu-sen.](https://balloon.asia/apple-touch-icon.png)
+![ふうせん🎈 FU-SEN](https://balloon.asia/apple-touch-icon.png)
 ```
 
 {::options parse_block_html="true" /}
 <div style="background: #222; padding: 0 5px;">
-![ふうせん🎈 Fu-sen.](https://balloon.asia/apple-touch-icon.png)
+![ふうせん🎈 FU-SEN](https://balloon.asia/apple-touch-icon.png)
 </div>
 {::options parse_block_html="false" /}
 
 画像は直接表記も可能です。
 
 ```
-![ふうせん🎈 Fu-sen.](https://balloon.asia/apple-touch-icon.png "ふうせん🎈 Fu-sen.")
+![ふうせん🎈 FU-SEN](https://balloon.asia/apple-touch-icon.png "ふうせん🎈 FU-SEN")
 ```
 
 {::options parse_block_html="true" /}
 <div style="background: #222; padding: 0 5px;">
-![ふうせん🎈 Fu-sen.](https://balloon.asia/apple-touch-icon.png "ふうせん🎈 Fu-sen.")
+![ふうせん🎈 FU-SEN](https://balloon.asia/apple-touch-icon.png "ふうせん🎈 FU-SEN")
 </div>
 {::options parse_block_html="false" /}
 
