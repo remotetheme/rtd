@@ -4,3 +4,6 @@ lang: la
 
 title: jekyll-rtd-theme
 description: GitHub Pages jekyll-rtd-theme
+
+plugins:
+  - jekyll-sitemap
